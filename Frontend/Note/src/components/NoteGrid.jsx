@@ -1,7 +1,7 @@
 import React from 'react';
 import Note from './Note';
 
-function NoteGrid({ notes, onSelect, onEdit, onDelete }) { // Added onSelect prop
+function NoteGrid({ notes, onSelect }) { // Added onSelect prop
     if (notes.length === 0) {
         return <p style={{ textAlign: 'center', color: '#888' }}>No notes found. Add one!</p>;
     }

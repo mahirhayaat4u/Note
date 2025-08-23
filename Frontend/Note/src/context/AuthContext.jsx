@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const API_URL = 'http://localhost:3000/api/auth';
+    const API_URL = 'https://note-1-3lca.onrender.com/api/auth';
 
     useEffect(() => {
         if (token) {

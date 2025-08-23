@@ -6,7 +6,7 @@ import DeleteConfirmModal from './components/DeleteConfirmModal';
 import './App.css';
 
 // The API endpoint for your notes backend
-const API_URL = 'http://localhost:3000/api/notes';
+const API_URL = 'https://note-1-3lca.onrender.com/api/notes';
 
 function App() {
     // State management

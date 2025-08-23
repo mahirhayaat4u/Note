@@ -4,7 +4,8 @@ const { MongoClient, ObjectId } = require('mongodb');
 const cors = require('cors');
 
 const app = express();
-const port = 3000;
+// const port = 3000;
+ const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
@@ -90,7 +91,10 @@ app.delete('/api/notes/:id', async (req, res) => {
 
 // Start the server
 connectDB().then(() => {
-    app.listen(port, () => {
-        console.log(`🚀 Server running on https://note-1-3lca.onrender.com:${port}`);
-    });
+   
+
+app.listen(port, () => {
+  console.log(`🚀 Server running on port ${port}`);
+});
+
 });

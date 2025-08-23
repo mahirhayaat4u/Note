@@ -1,0 +1,7 @@
+/* Paste all the CSS from the <style> tag in your HTML file here. */
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f0f2f5;
+    /* ... and so on ... */
+}
+/* ... rest of the CSS ... */

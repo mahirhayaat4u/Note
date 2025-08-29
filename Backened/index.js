@@ -244,7 +244,7 @@ const port = 3000;
 
 // A list of URLs that are allowed to make requests to your backend
 const allowedOrigins = [
-  'https://note-sage-gamma.vercel.app', // Your production URL
+//   'https://note-sage-gamma.vercel.app', // Your production URL
   'http://localhost:5173'  ,
   'https://note-fesy.vercel.app/'            // Your local development URL
 ];

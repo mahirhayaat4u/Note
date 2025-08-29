@@ -7,10 +7,7 @@
     },
     {
       "src": "Frontend/Note/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
@@ -20,7 +17,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/Frontend/Note/dist/index.html"
+      "dest": "/Frontend/Note"
     }
   ]
 }

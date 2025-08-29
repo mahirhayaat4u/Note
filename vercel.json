@@ -16,12 +16,11 @@
       "dest": "Backened/index.js"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "/Frontend/Note/dist/assets/$1"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
-      "dest": "/Frontend/Note/dist/index.html"
+      "dest": "/index.html"
     }
   ]
 }

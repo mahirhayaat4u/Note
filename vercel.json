@@ -4,23 +4,12 @@
     {
       "src": "Backened/index.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "Frontend/Note/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist" 
-      }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "Backened/index.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/Frontend/Note/dist/index.html"
     }
   ]
 }

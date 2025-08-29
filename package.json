@@ -1,0 +1,8 @@
+{
+  "name": "note-monorepo",
+  "private": true,
+  "workspaces": [
+    "Frontend/Note",
+    "Backened"
+  ]
+}

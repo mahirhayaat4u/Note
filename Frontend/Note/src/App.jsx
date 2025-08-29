@@ -14,7 +14,7 @@ import axios from 'axios';
 import { AuthContext } from './context/auth-context';
 import { AuthProvider } from './context/AuthContext';
 
-const API_URL = 'https://note-1-3lca.onrender.com/api/notes';
+const API_URL = '/api/notes';
 // const API_URL = 'http://localhost:3000/api/notes';
 
 function App() {
